@@ -1,0 +1,83 @@
+body{
+    justify-content:center;
+    align-items: center;
+    vertical-align: center;
+    font-style: arial,sans-serif;
+    background-color: #202124;
+}
+
+button{
+    color: #e8eaed;
+    line-height: 34px;
+    width : 85px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    margin: 4px;
+    border: 1px solid #3c4043;
+}
+
+#BtnBorrar{
+    text-align: center;
+}
+
+.numero{
+    color: #e8eaed;
+    background: #3c4043;
+}
+.operador{
+    color: #e8eaed;
+    background-color: #5f6368;
+}
+#BtnIgual{
+    background: #8ab4f8;
+    color: #202124;
+}
+#BtnRaiz{
+    width : 200px
+}
+#BtnPoten{
+    width : 164px
+}
+.valor-superior {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#hola{
+    opacity: 0;
+}
+#resultado{
+    background-color: transparent;
+    border: none;
+    color: #e8eaed;
+    font-size: 30px;
+    text-align: right;
+    height: 32px;
+}
+.Text{
+    background-color: transparent;
+    border: solid 1px #3c4043;
+    width : 380px;
+    padding: 5px 1px 0 1px;
+    border-radius: 8px;
+    margin: 0px 0px 15px 0px;
+}
+#resultado2{
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    margin-top: 3px;
+    color: #969ba1;
+    height: 20px;
+    width : 96%;
+    font-size: 13px;
+    padding: 1px 2px;
+}
+
+button:hover{
+    filter: brightness(150%);
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}

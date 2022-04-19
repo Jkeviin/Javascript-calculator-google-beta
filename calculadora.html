@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boton.css">
+    <title>CALCULADORA</title>
+</head>
+<body onkeypress="tecla(event)">
+
+        <div class="calculadora">
+            <div class="Text" type="text">
+                <input class="Text2" type="text" id="resultado2" readonly></input> <br>
+                <input class="Text2" type="text" id="resultado" readonly></input> <br>
+            </div>
+
+            <button class="operador" id="hola"></button>
+            <button class="operador" id="hola"></button>
+            <button class="operador" onclick="btnClickEliminar()" id="eliminar">C</button>
+            <button class="operador" onclick="btnClickBorrar()" id="BtnBorrar">AC</button>
+            <br>
+            <button class="numero" onclick="btnUno()" id="uno">1</button>
+            <button class="numero" onclick="btnDos()" id="dos">2</button>
+            <button class="numero" onclick="btnTres()" id="tres">3</button>
+            <button class="operador" onclick="btnClickDiv()" id="BtnDiv">/</button>
+            <br>
+            <button class="numero" onclick="btnCuatro()" id="cuatro">4</button>
+            <button class="numero" onclick="btnCinco()" id="cinco">5</button>
+            <button class="numero" onclick="btnSeis()" id="seis">6</button>
+            <button class="operador" onclick="btnClickMulti()" id="BtnMulti">*</button>
+            <br>
+            <button class="numero" onclick="btnSiete()" id="siete">7</button>
+            <button class="numero" onclick="btnOcho()" id="ocho">8</button>
+            <button class="numero" onclick="btnNueve()" id="nueve">9</button>
+            <button class="operador" onclick="btnClickSuma()" id="BtnSuma">+</button>
+            <br>
+            <button class="numero" onclick="btnCero()" id="cero">0</button>
+            <button class="numero" onclick="btnPunto()" id="puntos" disabled="true">.</button>
+            <button onclick="btnClickIgual()" id="BtnIgual">=</button>
+            <button class="operador" onclick="btnClickResta()" id="BtnResta">-</button>
+            <br>
+            <button class="operador" onclick="btnClickRaiz()" id="BtnRaiz">raiz cuadrada</button>
+            <button class="operador" onclick="btnClickPoten()" id="BtnPoten">Potencia</button>
+
+        </div>
+
+
+
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
